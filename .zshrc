@@ -136,3 +136,10 @@ PATH="/Users/gany/.bin/platform-tools:$PATH"
 #source /Users/gany/Documents/Backup/flocate/fun.bashrc
 #export FLOCATEDB=/Users/gany/Documents/Backup/flocate/db
 #source <("/Users/gany/Documents/Backup/wrappercomposite/config.sh")
+
+#enable google-cloud
+export PATH="/Users/gany/.bin/platform-tools/google-cloud-sdk/bin:$PATH"
+#enable shell command completion for gcloud.
+source "/Users/gany/.bin/platform-tools/google-cloud-sdk/completion.zsh.inc"
+#enable shell command completion for gcloud.
+source "/Users/gany/.bin/platform-tools/google-cloud-sdk/path.zsh.inc"
